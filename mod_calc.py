@@ -8,12 +8,18 @@ def mult(a, b):
     return f'res = {a * b}'
 
 def div (a, b):
+    if b == 0:
+        return 'Division is impossible'
     return f'res = {a / b}'
 
 def int_div(a, b):
+    if b == 0:
+        return 'Division is impossible'
     return f'res = {a // b}'
 
 def rem_div(a, b):
+    if b == 0:
+        return 'Division is impossible'
     return f'res = {a % b}'
 
 def pow(a, b):
